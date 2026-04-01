@@ -177,6 +177,35 @@
             //{
             //    Console.WriteLine("Queue is empty, nothing to dequeue");
             //}
+            //Stack<string> history = new Stack<string>();
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+            //Console.WriteLine( history.Peek());
+            //Console.WriteLine();
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    string leftPage = history.Pop();
+            //    Console.WriteLine("Leaving: " + leftPage);
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine( history.Peek());
+            //Console.WriteLine();
+            //while (history.Count > 0)
+            //{
+            //    history.Pop();
+            //}
+            //if (history.TryPop(out string result))
+            //{
+            //    Console.WriteLine("Popped: " + result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Stack is empty, nothing to pop");
+            //}
+
         }
     }
 }
