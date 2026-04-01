@@ -67,6 +67,50 @@
             //{
             //    Console.WriteLine($"Score: {entry.Key}, Name: {entry.Value}");
             //}
+            //Dictionary<string, string> phones = new Dictionary<string, string>() { {"ahmed","01002510624" },
+            //    {"mina","01002420666" },
+            //    {"omar","01254789630" },
+            //    {"maro","01236547892" }};
+            //phones["ahmed"] = "01000000000";
+            //phones["mona"] = "01000000000";
+            //foreach (var entry in phones)
+            //{
+            //    Console.WriteLine($"Name: {entry.Key}, Phone: {entry.Value}");
+            //}
+            //try
+            //{
+            //    phones.Add("sara", "01000110000");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine($"Error adding entry: {ex.Message}");
+            //}
+            //Console.WriteLine();
+            //foreach (var entry in phones)
+            //{
+            //    Console.WriteLine($"Name: {entry.Key}, Phone: {entry.Value}");
+            //}
+            //Console.WriteLine();
+            //bool addResult = phones.TryAdd("koko", "01000110000");
+            //Console.WriteLine(addResult);
+            //Console.WriteLine();
+            //var name = "jojo";
+            //if (!phones.ContainsKey(name))
+            //{
+            //    Console.WriteLine($"Name {name} not found in phones dictionary.");
+            //}
+            //Console.WriteLine();
+            //foreach (var entry in phones.Keys)
+            //{
+            //    Console.WriteLine($"Name: {entry}");
+            //}
+            //Console.WriteLine();
+            //foreach (var entry in phones.Values)
+            //{
+            //    Console.WriteLine($"phone: {entry}");
+            //}
+            //Console.WriteLine();
+
         }
-    }
+        }
 }
