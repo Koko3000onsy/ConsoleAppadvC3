@@ -150,6 +150,33 @@
             //}
             //HashSet<int> smallSet = new HashSet<int> { 1, 2 };
             //Console.WriteLine( smallSet.IsSubsetOf(setA));
+            //Queue<string> printer = new Queue<string>();
+            //printer.Enqueue("Report.pdf");
+            //printer.Enqueue("Invoice.pdf");
+            //printer.Enqueue("Letter.docx");
+            //printer.Enqueue("Resume.pdf");
+            //printer.Enqueue("Photo.jpg");
+            //foreach (var docs in printer)
+            //{
+            //    Console.WriteLine(docs);
+            //}
+            //Console.WriteLine( printer.Count);
+            //Console.WriteLine();
+            //Console.WriteLine( printer.Peek());
+            //Console.WriteLine();
+            //while (printer.Count > 0)
+            //{
+            //    string doc = printer.Dequeue();
+            //    Console.WriteLine("Printing: " + doc);
+            //}
+            //if (printer.TryDequeue(out string result))
+            //{
+            //    Console.WriteLine("Dequeued: " + result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Queue is empty, nothing to dequeue");
+            //}
         }
-        }
+    }
 }
