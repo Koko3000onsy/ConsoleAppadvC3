@@ -41,6 +41,32 @@
             //    Console.WriteLine(grade);
 
             //}
+            //SortedList<int, string> leaderboard = new SortedList<int, string>() {{500, "Ahmed"},
+            //{200, "Sara"},
+            //{800, "Ali"},
+            //{350, "Mona"} };
+            //foreach (var entry in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {entry.Key}, Name: {entry.Value}");
+
+            //}
+            //Console.WriteLine(leaderboard.Keys[0]);
+            //Console.WriteLine(leaderboard.Values[0]);
+            //Console.WriteLine(leaderboard.ContainsKey(500));
+            //if (leaderboard.TryGetValue(999, out string name))
+            //{
+            //    Console.WriteLine($"Name with score 999: {name}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Score 999 not found in leaderboard.");
+            //}
+            //leaderboard.Remove(200);
+            //Console.WriteLine("Leaderboard after removing score 200:");
+            //foreach (var entry in leaderboard)
+            //{
+            //    Console.WriteLine($"Score: {entry.Key}, Name: {entry.Value}");
+            //}
         }
     }
 }
