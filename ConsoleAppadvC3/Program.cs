@@ -110,7 +110,46 @@
             //    Console.WriteLine($"phone: {entry}");
             //}
             //Console.WriteLine();
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+            //Console.WriteLine("Emails count:" + emails.Count);//hashset does not allow duplicates and is case-insensitive due to StringComparer.OrdinalIgnoreCase
+            //foreach (var email in emails)
+            //{
+            //    Console.WriteLine(email);
 
+            //}
+            //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+            //var union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine("Union of setA and setB:");
+            //foreach (var num in union)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            //Console.WriteLine();
+            //var intersection = new HashSet<int>(setA);
+            //intersection.IntersectWith(setB);
+            //Console.WriteLine("Intersection of setA and setB:");
+            //foreach (var num in intersection)
+            //{
+            //    Console.WriteLine(num);
+
+            //}
+            //Console.WriteLine();
+            //var difference = new HashSet<int>(setA);
+            //difference.ExceptWith(setB);
+            //Console.WriteLine("Exception of setA and setB: ");
+            //foreach (var num in difference)
+            //{
+            //    Console.WriteLine(num);
+
+            //}
+            //HashSet<int> smallSet = new HashSet<int> { 1, 2 };
+            //Console.WriteLine( smallSet.IsSubsetOf(setA));
         }
         }
 }
